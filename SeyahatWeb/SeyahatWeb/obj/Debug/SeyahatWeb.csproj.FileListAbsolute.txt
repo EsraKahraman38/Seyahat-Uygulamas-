@@ -1,0 +1,230 @@
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\SeyahatWeb.dll.config
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\SeyahatWeb.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\SeyahatWeb.pdb
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\csc.exe
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\csc.exe.config
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\csc.rsp
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\csi.exe
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\csi.exe.config
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\csi.rsp
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Console.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\vbc.exe
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\vbc.exe.config
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\vbc.rsp
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\Antlr3.Runtime.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\Newtonsoft.Json.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\System.Web.Optimization.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\WebGrease.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\System.Web.Optimization.xml
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\Newtonsoft.Json.xml
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\Antlr3.Runtime.pdb
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\obj\Debug\SeyahatWeb.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\obj\Debug\SeyahatWeb.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\obj\Debug\SeyahatWeb.csproj.CopyComplete
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\obj\Debug\SeyahatWeb.dll
+C:\Users\Dell\source\repos\SeyahatWeb\SeyahatWeb\obj\Debug\SeyahatWeb.pdb
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\SeyahatWeb.dll.config
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\SeyahatWeb.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\SeyahatWeb.pdb
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\csc.exe
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\csc.exe.config
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\csc.rsp
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\csi.exe
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\csi.exe.config
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\csi.rsp
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Console.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\vbc.exe
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\vbc.exe.config
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\vbc.rsp
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\Antlr3.Runtime.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\Newtonsoft.Json.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\System.Web.Optimization.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\WebGrease.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\System.Web.Optimization.xml
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\Newtonsoft.Json.xml
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\Antlr3.Runtime.pdb
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\obj\Debug\SeyahatWeb.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\obj\Debug\SeyahatWeb.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\obj\Debug\SeyahatWeb.csproj.CopyComplete
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\obj\Debug\SeyahatWeb.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\obj\Debug\SeyahatWeb.pdb
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\EntityFramework.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\EntityFramework.xml
+C:\Users\Dell\Desktop\asp.net web form calisma\SeyahatWeb\SeyahatWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\SeyahatWeb.dll.config
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\SeyahatWeb.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\SeyahatWeb.pdb
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\csc.exe
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\csc.exe.config
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\csc.rsp
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\csi.exe
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\csi.exe.config
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\csi.rsp
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.AppContext.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Console.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\vbc.exe
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\vbc.exe.config
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\vbc.rsp
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\Antlr3.Runtime.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\EntityFramework.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\Newtonsoft.Json.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\System.Web.Optimization.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\WebGrease.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\EntityFramework.xml
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\System.Web.Optimization.xml
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\Newtonsoft.Json.xml
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\Antlr3.Runtime.pdb
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\obj\Debug\SeyahatWeb.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\obj\Debug\SeyahatWeb.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\obj\Debug\SeyahatWeb.csproj.CopyComplete
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\obj\Debug\SeyahatWeb.dll
+C:\Users\Dell\Desktop\Seyahat Uygulaması\SeyahatWeb\SeyahatWeb\obj\Debug\SeyahatWeb.pdb

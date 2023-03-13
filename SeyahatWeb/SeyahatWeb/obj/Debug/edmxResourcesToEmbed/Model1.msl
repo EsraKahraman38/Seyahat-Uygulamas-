@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GoTripDB2ModelStoreContainer" CdmEntityContainer="GoTripDB2Entities">
+    <EntitySetMapping Name="Ayarlar">
+      <EntityTypeMapping TypeName="GoTripDB2Model.Ayarlar">
+        <MappingFragment StoreEntitySet="Ayarlar">
+          <ScalarProperty Name="AyarlarID" ColumnName="AyarlarID" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="Twitter" ColumnName="Twitter" />
+          <ScalarProperty Name="YouTube" ColumnName="YouTube" />
+          <ScalarProperty Name="Instagram" ColumnName="Instagram" />
+          <ScalarProperty Name="Facebook" ColumnName="Facebook" />
+          <ScalarProperty Name="Linkedin" ColumnName="Linkedin" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Blog">
+      <EntityTypeMapping TypeName="GoTripDB2Model.Blog">
+        <MappingFragment StoreEntitySet="Blog">
+          <ScalarProperty Name="BlogID" ColumnName="BlogID" />
+          <ScalarProperty Name="BBaslik" ColumnName="BBaslik" />
+          <ScalarProperty Name="BOzet" ColumnName="BOzet" />
+          <ScalarProperty Name="BResim" ColumnName="BResim" />
+          <ScalarProperty Name="BDetay" ColumnName="BDetay" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BlogKategori">
+      <EntityTypeMapping TypeName="GoTripDB2Model.BlogKategori">
+        <MappingFragment StoreEntitySet="BlogKategori">
+          <ScalarProperty Name="BlogKategoriID" ColumnName="BlogKategoriID" />
+          <ScalarProperty Name="BKAd" ColumnName="BKAd" />
+          <ScalarProperty Name="BlogID" ColumnName="BlogID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Galeri">
+      <EntityTypeMapping TypeName="GoTripDB2Model.Galeri">
+        <MappingFragment StoreEntitySet="Galeri">
+          <ScalarProperty Name="GaleriID" ColumnName="GaleriID" />
+          <ScalarProperty Name="GBaslik" ColumnName="GBaslik" />
+          <ScalarProperty Name="GResim" ColumnName="GResim" />
+          <ScalarProperty Name="BlogID" ColumnName="BlogID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GaleriKategori">
+      <EntityTypeMapping TypeName="GoTripDB2Model.GaleriKategori">
+        <MappingFragment StoreEntitySet="GaleriKategori">
+          <ScalarProperty Name="GaleriKategoriID" ColumnName="GaleriKategoriID" />
+          <ScalarProperty Name="GKAd" ColumnName="GKAd" />
+          <ScalarProperty Name="GaleriID" ColumnName="GaleriID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Iletisim">
+      <EntityTypeMapping TypeName="GoTripDB2Model.Iletisim">
+        <MappingFragment StoreEntitySet="Iletisim">
+          <ScalarProperty Name="IletisimID" ColumnName="IletisimID" />
+          <ScalarProperty Name="AdSoyad" ColumnName="AdSoyad" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Konu" ColumnName="Konu" />
+          <ScalarProperty Name="Mesaj" ColumnName="Mesaj" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kullanici">
+      <EntityTypeMapping TypeName="GoTripDB2Model.Kullanici">
+        <MappingFragment StoreEntitySet="Kullanici">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Sifre" ColumnName="Sifre" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kurumsal">
+      <EntityTypeMapping TypeName="GoTripDB2Model.Kurumsal">
+        <MappingFragment StoreEntitySet="Kurumsal">
+          <ScalarProperty Name="KurumsalID" ColumnName="KurumsalID" />
+          <ScalarProperty Name="KBaslik" ColumnName="KBaslik" />
+          <ScalarProperty Name="KOzet" ColumnName="KOzet" />
+          <ScalarProperty Name="KDetay" ColumnName="KDetay" />
+          <ScalarProperty Name="TurPaketID" ColumnName="TurPaketID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TurPaket">
+      <EntityTypeMapping TypeName="GoTripDB2Model.TurPaket">
+        <MappingFragment StoreEntitySet="TurPaket">
+          <ScalarProperty Name="TurPaketID" ColumnName="TurPaketID" />
+          <ScalarProperty Name="TPAd" ColumnName="TPAd" />
+          <ScalarProperty Name="TPFiyat" ColumnName="TPFiyat" />
+          <ScalarProperty Name="TPSure" ColumnName="TPSure" />
+          <ScalarProperty Name="TPKonum" ColumnName="TPKonum" />
+          <ScalarProperty Name="TPDetay" ColumnName="TPDetay" />
+          <ScalarProperty Name="TPResim" ColumnName="TPResim" />
+          <ScalarProperty Name="BlogKategoriID" ColumnName="BlogKategoriID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="GoTripDB2Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Ayarlar">
+          <Key>
+            <PropertyRef Name="AyarlarID" />
+          </Key>
+          <Property Name="AyarlarID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Mail" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Telefon" Type="nvarchar" MaxLength="11" Nullable="false" />
+          <Property Name="Adres" Type="nvarchar" MaxLength="500" Nullable="false" />
+          <Property Name="Twitter" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="YouTube" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Instagram" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Facebook" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Linkedin" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Logo" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Aciklama" Type="nvarchar" MaxLength="500" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Blog">
+          <Key>
+            <PropertyRef Name="BlogID" />
+          </Key>
+          <Property Name="BlogID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="BBaslik" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="BOzet" Type="nvarchar" MaxLength="200" Nullable="false" />
+          <Property Name="BResim" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="BDetay" Type="nvarchar" MaxLength="1000" Nullable="false" />
+          <Property Name="Tarih" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="BlogKategori">
+          <Key>
+            <PropertyRef Name="BlogKategoriID" />
+          </Key>
+          <Property Name="BlogKategoriID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="BKAd" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="BlogID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Galeri">
+          <Key>
+            <PropertyRef Name="GaleriID" />
+          </Key>
+          <Property Name="GaleriID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="GBaslik" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="GResim" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="BlogID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="GaleriKategori">
+          <Key>
+            <PropertyRef Name="GaleriKategoriID" />
+          </Key>
+          <Property Name="GaleriKategoriID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="GKAd" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="GaleriID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Iletisim">
+          <Key>
+            <PropertyRef Name="IletisimID" />
+          </Key>
+          <Property Name="IletisimID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="AdSoyad" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Mail" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Konu" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Mesaj" Type="nvarchar" MaxLength="1000" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Kullanici">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Sifre" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Soyad" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Mail" Type="nvarchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Kurumsal">
+          <Key>
+            <PropertyRef Name="KurumsalID" />
+          </Key>
+          <Property Name="KurumsalID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="KBaslik" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="KOzet" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="KDetay" Type="nvarchar" MaxLength="1000" Nullable="false" />
+          <Property Name="TurPaketID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TurPaket">
+          <Key>
+            <PropertyRef Name="TurPaketID" />
+          </Key>
+          <Property Name="TurPaketID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TPAd" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="TPFiyat" Type="int" Nullable="false" />
+          <Property Name="TPSure" Type="int" Nullable="false" />
+          <Property Name="TPKonum" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="TPDetay" Type="nvarchar" MaxLength="300" Nullable="false" />
+          <Property Name="TPResim" Type="nvarchar" MaxLength="200" Nullable="false" />
+          <Property Name="BlogKategoriID" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__BlogKateg__BlogI__403A8C7D">
+          <End Role="Blog" Type="Self.Blog" Multiplicity="1" />
+          <End Role="BlogKategori" Type="Self.BlogKategori" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Blog">
+              <PropertyRef Name="BlogID" />
+            </Principal>
+            <Dependent Role="BlogKategori">
+              <PropertyRef Name="BlogID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Galeri__BlogID__48CFD27E">
+          <End Role="Blog" Type="Self.Blog" Multiplicity="1" />
+          <End Role="Galeri" Type="Self.Galeri" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Blog">
+              <PropertyRef Name="BlogID" />
+            </Principal>
+            <Dependent Role="Galeri">
+              <PropertyRef Name="BlogID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__GaleriKat__Galer__4BAC3F29">
+          <End Role="Galeri" Type="Self.Galeri" Multiplicity="1" />
+          <End Role="GaleriKategori" Type="Self.GaleriKategori" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Galeri">
+              <PropertyRef Name="GaleriID" />
+            </Principal>
+            <Dependent Role="GaleriKategori">
+              <PropertyRef Name="GaleriID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Kurumsal__TurPak__45F365D3">
+          <End Role="TurPaket" Type="Self.TurPaket" Multiplicity="1" />
+          <End Role="Kurumsal" Type="Self.Kurumsal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TurPaket">
+              <PropertyRef Name="TurPaketID" />
+            </Principal>
+            <Dependent Role="Kurumsal">
+              <PropertyRef Name="TurPaketID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__TurPaket__BlogKa__4316F928">
+          <End Role="BlogKategori" Type="Self.BlogKategori" Multiplicity="1" />
+          <End Role="TurPaket" Type="Self.TurPaket" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BlogKategori">
+              <PropertyRef Name="BlogKategoriID" />
+            </Principal>
+            <Dependent Role="TurPaket">
+              <PropertyRef Name="BlogKategoriID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="GoTripDB2ModelStoreContainer">
+          <EntitySet Name="Ayarlar" EntityType="Self.Ayarlar" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Blog" EntityType="Self.Blog" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="BlogKategori" EntityType="Self.BlogKategori" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Galeri" EntityType="Self.Galeri" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="GaleriKategori" EntityType="Self.GaleriKategori" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Iletisim" EntityType="Self.Iletisim" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Kullanici" EntityType="Self.Kullanici" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Kurumsal" EntityType="Self.Kurumsal" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TurPaket" EntityType="Self.TurPaket" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__BlogKateg__BlogI__403A8C7D" Association="Self.FK__BlogKateg__BlogI__403A8C7D">
+            <End Role="Blog" EntitySet="Blog" />
+            <End Role="BlogKategori" EntitySet="BlogKategori" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Galeri__BlogID__48CFD27E" Association="Self.FK__Galeri__BlogID__48CFD27E">
+            <End Role="Blog" EntitySet="Blog" />
+            <End Role="Galeri" EntitySet="Galeri" />
+          </AssociationSet>
+          <AssociationSet Name="FK__GaleriKat__Galer__4BAC3F29" Association="Self.FK__GaleriKat__Galer__4BAC3F29">
+            <End Role="Galeri" EntitySet="Galeri" />
+            <End Role="GaleriKategori" EntitySet="GaleriKategori" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Kurumsal__TurPak__45F365D3" Association="Self.FK__Kurumsal__TurPak__45F365D3">
+            <End Role="TurPaket" EntitySet="TurPaket" />
+            <End Role="Kurumsal" EntitySet="Kurumsal" />
+          </AssociationSet>
+          <AssociationSet Name="FK__TurPaket__BlogKa__4316F928" Association="Self.FK__TurPaket__BlogKa__4316F928">
+            <End Role="BlogKategori" EntitySet="BlogKategori" />
+            <End Role="TurPaket" EntitySet="TurPaket" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="GoTripDB2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Ayarlar">
+          <Key>
+            <PropertyRef Name="AyarlarID" />
+          </Key>
+          <Property Name="AyarlarID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Mail" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Telefon" Type="String" MaxLength="11" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Adres" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Twitter" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="YouTube" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Instagram" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Facebook" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Linkedin" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Logo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Aciklama" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Blog">
+          <Key>
+            <PropertyRef Name="BlogID" />
+          </Key>
+          <Property Name="BlogID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BBaslik" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="BOzet" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="BResim" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="BDetay" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Tarih" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="BlogKategori" Relationship="Self.FK__BlogKateg__BlogI__403A8C7D" FromRole="Blog" ToRole="BlogKategori" />
+          <NavigationProperty Name="Galeri" Relationship="Self.FK__Galeri__BlogID__48CFD27E" FromRole="Blog" ToRole="Galeri" />
+        </EntityType>
+        <EntityType Name="BlogKategori">
+          <Key>
+            <PropertyRef Name="BlogKategoriID" />
+          </Key>
+          <Property Name="BlogKategoriID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BKAd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="BlogID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Blog" Relationship="Self.FK__BlogKateg__BlogI__403A8C7D" FromRole="BlogKategori" ToRole="Blog" />
+          <NavigationProperty Name="TurPaket" Relationship="Self.FK__TurPaket__BlogKa__4316F928" FromRole="BlogKategori" ToRole="TurPaket" />
+        </EntityType>
+        <EntityType Name="Galeri">
+          <Key>
+            <PropertyRef Name="GaleriID" />
+          </Key>
+          <Property Name="GaleriID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="GBaslik" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="GResim" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="BlogID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Blog" Relationship="Self.FK__Galeri__BlogID__48CFD27E" FromRole="Galeri" ToRole="Blog" />
+          <NavigationProperty Name="GaleriKategori" Relationship="Self.FK__GaleriKat__Galer__4BAC3F29" FromRole="Galeri" ToRole="GaleriKategori" />
+        </EntityType>
+        <EntityType Name="GaleriKategori">
+          <Key>
+            <PropertyRef Name="GaleriKategoriID" />
+          </Key>
+          <Property Name="GaleriKategoriID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="GKAd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="GaleriID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Galeri" Relationship="Self.FK__GaleriKat__Galer__4BAC3F29" FromRole="GaleriKategori" ToRole="Galeri" />
+        </EntityType>
+        <EntityType Name="Iletisim">
+          <Key>
+            <PropertyRef Name="IletisimID" />
+          </Key>
+          <Property Name="IletisimID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AdSoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Konu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Mesaj" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Kullanici">
+          <Key>
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Sifre" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Ad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Soyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Mail" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Kurumsal">
+          <Key>
+            <PropertyRef Name="KurumsalID" />
+          </Key>
+          <Property Name="KurumsalID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="KBaslik" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="KOzet" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="KDetay" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TurPaketID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="TurPaket" Relationship="Self.FK__Kurumsal__TurPak__45F365D3" FromRole="Kurumsal" ToRole="TurPaket" />
+        </EntityType>
+        <EntityType Name="TurPaket">
+          <Key>
+            <PropertyRef Name="TurPaketID" />
+          </Key>
+          <Property Name="TurPaketID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TPAd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TPFiyat" Type="Int32" Nullable="false" />
+          <Property Name="TPSure" Type="Int32" Nullable="false" />
+          <Property Name="TPKonum" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TPDetay" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TPResim" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="BlogKategoriID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="BlogKategori" Relationship="Self.FK__TurPaket__BlogKa__4316F928" FromRole="TurPaket" ToRole="BlogKategori" />
+          <NavigationProperty Name="Kurumsal" Relationship="Self.FK__Kurumsal__TurPak__45F365D3" FromRole="TurPaket" ToRole="Kurumsal" />
+        </EntityType>
+        <Association Name="FK__BlogKateg__BlogI__403A8C7D">
+          <End Role="Blog" Type="Self.Blog" Multiplicity="1" />
+          <End Role="BlogKategori" Type="Self.BlogKategori" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Blog">
+              <PropertyRef Name="BlogID" />
+            </Principal>
+            <Dependent Role="BlogKategori">
+              <PropertyRef Name="BlogID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Galeri__BlogID__48CFD27E">
+          <End Role="Blog" Type="Self.Blog" Multiplicity="1" />
+          <End Role="Galeri" Type="Self.Galeri" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Blog">
+              <PropertyRef Name="BlogID" />
+            </Principal>
+            <Dependent Role="Galeri">
+              <PropertyRef Name="BlogID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__TurPaket__BlogKa__4316F928">
+          <End Role="BlogKategori" Type="Self.BlogKategori" Multiplicity="1" />
+          <End Role="TurPaket" Type="Self.TurPaket" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BlogKategori">
+              <PropertyRef Name="BlogKategoriID" />
+            </Principal>
+            <Dependent Role="TurPaket">
+              <PropertyRef Name="BlogKategoriID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__GaleriKat__Galer__4BAC3F29">
+          <End Role="Galeri" Type="Self.Galeri" Multiplicity="1" />
+          <End Role="GaleriKategori" Type="Self.GaleriKategori" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Galeri">
+              <PropertyRef Name="GaleriID" />
+            </Principal>
+            <Dependent Role="GaleriKategori">
+              <PropertyRef Name="GaleriID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Kurumsal__TurPak__45F365D3">
+          <End Role="TurPaket" Type="Self.TurPaket" Multiplicity="1" />
+          <End Role="Kurumsal" Type="Self.Kurumsal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TurPaket">
+              <PropertyRef Name="TurPaketID" />
+            </Principal>
+            <Dependent Role="Kurumsal">
+              <PropertyRef Name="TurPaketID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="GoTripDB2Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Ayarlar" EntityType="Self.Ayarlar" />
+          <EntitySet Name="Blog" EntityType="Self.Blog" />
+          <EntitySet Name="BlogKategori" EntityType="Self.BlogKategori" />
+          <EntitySet Name="Galeri" EntityType="Self.Galeri" />
+          <EntitySet Name="GaleriKategori" EntityType="Self.GaleriKategori" />
+          <EntitySet Name="Iletisim" EntityType="Self.Iletisim" />
+          <EntitySet Name="Kullanici" EntityType="Self.Kullanici" />
+          <EntitySet Name="Kurumsal" EntityType="Self.Kurumsal" />
+          <EntitySet Name="TurPaket" EntityType="Self.TurPaket" />
+          <AssociationSet Name="FK__BlogKateg__BlogI__403A8C7D" Association="Self.FK__BlogKateg__BlogI__403A8C7D">
+            <End Role="Blog" EntitySet="Blog" />
+            <End Role="BlogKategori" EntitySet="BlogKategori" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Galeri__BlogID__48CFD27E" Association="Self.FK__Galeri__BlogID__48CFD27E">
+            <End Role="Blog" EntitySet="Blog" />
+            <End Role="Galeri" EntitySet="Galeri" />
+          </AssociationSet>
+          <AssociationSet Name="FK__TurPaket__BlogKa__4316F928" Association="Self.FK__TurPaket__BlogKa__4316F928">
+            <End Role="BlogKategori" EntitySet="BlogKategori" />
+            <End Role="TurPaket" EntitySet="TurPaket" />
+          </AssociationSet>
+          <AssociationSet Name="FK__GaleriKat__Galer__4BAC3F29" Association="Self.FK__GaleriKat__Galer__4BAC3F29">
+            <End Role="Galeri" EntitySet="Galeri" />
+            <End Role="GaleriKategori" EntitySet="GaleriKategori" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Kurumsal__TurPak__45F365D3" Association="Self.FK__Kurumsal__TurPak__45F365D3">
+            <End Role="TurPaket" EntitySet="TurPaket" />
+            <End Role="Kurumsal" EntitySet="Kurumsal" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="GoTripDB2ModelStoreContainer" CdmEntityContainer="GoTripDB2Entities">
+          <EntitySetMapping Name="Ayarlar">
+            <EntityTypeMapping TypeName="GoTripDB2Model.Ayarlar">
+              <MappingFragment StoreEntitySet="Ayarlar">
+                <ScalarProperty Name="AyarlarID" ColumnName="AyarlarID" />
+                <ScalarProperty Name="Mail" ColumnName="Mail" />
+                <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+                <ScalarProperty Name="Adres" ColumnName="Adres" />
+                <ScalarProperty Name="Twitter" ColumnName="Twitter" />
+                <ScalarProperty Name="YouTube" ColumnName="YouTube" />
+                <ScalarProperty Name="Instagram" ColumnName="Instagram" />
+                <ScalarProperty Name="Facebook" ColumnName="Facebook" />
+                <ScalarProperty Name="Linkedin" ColumnName="Linkedin" />
+                <ScalarProperty Name="Logo" ColumnName="Logo" />
+                <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Blog">
+            <EntityTypeMapping TypeName="GoTripDB2Model.Blog">
+              <MappingFragment StoreEntitySet="Blog">
+                <ScalarProperty Name="BlogID" ColumnName="BlogID" />
+                <ScalarProperty Name="BBaslik" ColumnName="BBaslik" />
+                <ScalarProperty Name="BOzet" ColumnName="BOzet" />
+                <ScalarProperty Name="BResim" ColumnName="BResim" />
+                <ScalarProperty Name="BDetay" ColumnName="BDetay" />
+                <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BlogKategori">
+            <EntityTypeMapping TypeName="GoTripDB2Model.BlogKategori">
+              <MappingFragment StoreEntitySet="BlogKategori">
+                <ScalarProperty Name="BlogKategoriID" ColumnName="BlogKategoriID" />
+                <ScalarProperty Name="BKAd" ColumnName="BKAd" />
+                <ScalarProperty Name="BlogID" ColumnName="BlogID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Galeri">
+            <EntityTypeMapping TypeName="GoTripDB2Model.Galeri">
+              <MappingFragment StoreEntitySet="Galeri">
+                <ScalarProperty Name="GaleriID" ColumnName="GaleriID" />
+                <ScalarProperty Name="GBaslik" ColumnName="GBaslik" />
+                <ScalarProperty Name="GResim" ColumnName="GResim" />
+                <ScalarProperty Name="BlogID" ColumnName="BlogID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GaleriKategori">
+            <EntityTypeMapping TypeName="GoTripDB2Model.GaleriKategori">
+              <MappingFragment StoreEntitySet="GaleriKategori">
+                <ScalarProperty Name="GaleriKategoriID" ColumnName="GaleriKategoriID" />
+                <ScalarProperty Name="GKAd" ColumnName="GKAd" />
+                <ScalarProperty Name="GaleriID" ColumnName="GaleriID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Iletisim">
+            <EntityTypeMapping TypeName="GoTripDB2Model.Iletisim">
+              <MappingFragment StoreEntitySet="Iletisim">
+                <ScalarProperty Name="IletisimID" ColumnName="IletisimID" />
+                <ScalarProperty Name="AdSoyad" ColumnName="AdSoyad" />
+                <ScalarProperty Name="Mail" ColumnName="Mail" />
+                <ScalarProperty Name="Konu" ColumnName="Konu" />
+                <ScalarProperty Name="Mesaj" ColumnName="Mesaj" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Kullanici">
+            <EntityTypeMapping TypeName="GoTripDB2Model.Kullanici">
+              <MappingFragment StoreEntitySet="Kullanici">
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="Sifre" ColumnName="Sifre" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+                <ScalarProperty Name="Mail" ColumnName="Mail" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Kurumsal">
+            <EntityTypeMapping TypeName="GoTripDB2Model.Kurumsal">
+              <MappingFragment StoreEntitySet="Kurumsal">
+                <ScalarProperty Name="KurumsalID" ColumnName="KurumsalID" />
+                <ScalarProperty Name="KBaslik" ColumnName="KBaslik" />
+                <ScalarProperty Name="KOzet" ColumnName="KOzet" />
+                <ScalarProperty Name="KDetay" ColumnName="KDetay" />
+                <ScalarProperty Name="TurPaketID" ColumnName="TurPaketID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TurPaket">
+            <EntityTypeMapping TypeName="GoTripDB2Model.TurPaket">
+              <MappingFragment StoreEntitySet="TurPaket">
+                <ScalarProperty Name="TurPaketID" ColumnName="TurPaketID" />
+                <ScalarProperty Name="TPAd" ColumnName="TPAd" />
+                <ScalarProperty Name="TPFiyat" ColumnName="TPFiyat" />
+                <ScalarProperty Name="TPSure" ColumnName="TPSure" />
+                <ScalarProperty Name="TPKonum" ColumnName="TPKonum" />
+                <ScalarProperty Name="TPDetay" ColumnName="TPDetay" />
+                <ScalarProperty Name="TPResim" ColumnName="TPResim" />
+                <ScalarProperty Name="BlogKategoriID" ColumnName="BlogKategoriID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
